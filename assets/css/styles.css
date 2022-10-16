@@ -21,7 +21,7 @@
     --container-width-sm: 92%;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -356,7 +356,7 @@ header {
     }
 
     .header__image {
-        bottom: -1rem;
+        bottom: 10rem;
         width: 100%;
     }
 
