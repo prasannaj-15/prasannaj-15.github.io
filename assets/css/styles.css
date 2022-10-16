@@ -412,7 +412,7 @@ header {
     /* ============== Header ================== */
 
     header {
-        height: 100vh;
+        height: 100%;
         padding: 0;
         top: 5rem;
     }
@@ -422,10 +422,10 @@ header {
         gap : 0;
     }
 
-
+ 
     .header__left {
         text-align: center;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
     .header__left p {
@@ -434,7 +434,7 @@ header {
 
     .header__image{
         position: relative;
-        top: -2rem;
+        top: 1rem;
     }
 
     .header__right-bg {
@@ -448,6 +448,6 @@ header {
     }
     .header__socials a {
         color: var(--color-white);
-    }
+    } 
 
 }
