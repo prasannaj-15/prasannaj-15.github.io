@@ -104,6 +104,10 @@ section {
     font-size: 1.2rem;
 }
 
+.btn-md {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
 /* ================== NavBar ======================== */
 
 nav {
@@ -145,7 +149,7 @@ nav button{
 
 /* ====================== Header ==================== */
 header {
-    height: calc(100vh - 5rem);
+    height: calc(100% - 5rem);
     position: relative;
     top: 5rem;
     display: grid;
@@ -219,6 +223,54 @@ header {
 }
 /* =================== End Header ===============*/
 
+
+/* =================== start project section=========== */
+
+.project__container{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.project__header{
+    color: var(--color-primary);
+    margin:2rem 2rem;
+}
+
+.project__block{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 0;
+}
+
+    
+.project__tech{
+
+    display: inline-flex;
+    /* justify-content: space-between; */
+}
+.project__tech i{
+    font-size: 30px;
+    margin: 0 5px 0 5px;
+}
+
+.project__tech i:nth-child(1){
+    background: #e96228;
+}
+.project__tech i:nth-child(2){
+    background: #469BD5;
+}
+.project__tech i:nth-child(3){
+    background: #e2c430;
+}
+
+.project__right{
+    padding: 2rem;  
+}
+
+/* ===================End project section============== */
+
+/* ************************************************************************************************************ */
 /* =================== Media Query ================ */
 
 /* ==== Tablet === */
