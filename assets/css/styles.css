@@ -502,4 +502,10 @@ header {
         color: var(--color-white);
     } 
 
+/* ====================== project================ */
+.project__block{
+    grid-template-columns: 1fr;
+    
+}
+
 }
