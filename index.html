@@ -11,7 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <!-- Github calender link -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+
+<title>Portfolio</title>
 </head>
 <body>
     <nav>
@@ -223,6 +227,53 @@
 
 <!-- ============================== end project section===================== -->
 
+<!-- ============================== start Git-Calender section===================== -->
+<section id="git_calender">
+    <div class="container gitcalender__container">
+        <div class="calendar">
+            <!-- Loading stuff -->
+        </div>
+    </div>
+</section>
+
+<!-- ============================== end Git-calender section===================== -->
+
+
+<!-- ============================== start contact section===================== -->
+
+<section id="contact">
+    <div class="container contact__container">
+        <div class="contact__left">
+            <h2>Contact me</h2>
+            <p>Please free to contact me via email, linkedin</p>
+            <p>You can also download my resume using below button</p>
+            <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn" download><i class="uil uil-download-alt"></i>Download Resume</a>
+        </div>
+
+        <form action="">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send<i class="uil uil-arrow-right"></i></button>
+        </form>
+    </div>
+</section>
+
+<!-- ============================== end contact section===================== -->
+
+
+
 <script src="./assets/js/main.js"></script>
 </body>
 </html>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+    // GitHubCalendar(".calendar", "your-username");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "prasannaj-15", { responsive: true });
+
+   
+</script>

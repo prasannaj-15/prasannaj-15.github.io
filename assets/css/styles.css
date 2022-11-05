@@ -270,6 +270,45 @@ header {
 
 /* ===================End project section============== */
 
+/* ===================Start contact section============== */
+#contact {
+    background: var(--color-primary);
+    color: var(--color-white);
+    margin: 0;
+}
+
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    font-size: 0.9rem;
+}
+
+.contact__container h2 {
+    color: var(--color-white);
+}
+
+.contact__container p {
+    margin: 1rem 0 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+form input,
+textarea {
+    padding: 1rem;
+}
+
+
+
+/* ===================End contact section============== */
+
+
 /* ************************************************************************************************************ */
 /* =================== Media Query ================ */
 
