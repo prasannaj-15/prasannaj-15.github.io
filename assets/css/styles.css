@@ -228,7 +228,7 @@ header {
 
 .project__container{
     text-align: center;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .project__header{
@@ -269,6 +269,17 @@ header {
 }
 
 /* ===================End project section============== */
+
+
+/* =================== Start git calender section ============ */
+#git_calender {
+    padding: 0; 
+}
+.gitcalender__container{
+    text-align: center;
+}
+/* =================== End git calender section ============== */
+
 
 /* ===================Start contact section============== */
 #contact {
@@ -458,6 +469,10 @@ textarea {
     .header__socials a {
         color: var(--color-primary);
     }
+
+    #projects {
+        padding: 0;
+    }
 }
 
 /* ===============Media Queries (mobile)=========== */
@@ -542,9 +557,28 @@ textarea {
     } 
 
 /* ====================== project================ */
+#projects {
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
 .project__block{
     grid-template-columns: 1fr;
     
+}
+
+/* ======================= Git calender =========== */
+
+
+#git_calender{
+    padding: 0px;
+}
+
+/* ===================== contact ================ */
+
+.contact__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 }

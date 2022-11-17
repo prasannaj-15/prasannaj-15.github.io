@@ -83,7 +83,7 @@
 <!-- ============================== end About Me ============================= -->
 
 <!-- ============================== start project section===================== -->
-
+<section id="projects">
 <div class="container project__container">
 
     <h2 class="project__header"> Projects</h2>
@@ -221,7 +221,7 @@
         </div>
     </div>
 </div>
-
+</section>
 
 </div>
 
@@ -230,6 +230,8 @@
 <!-- ============================== start Git-Calender section===================== -->
 <section id="git_calender">
     <div class="container gitcalender__container">
+        <h2 class="project__header"> Git Calender </h2>
+
         <div class="calendar">
             <!-- Loading stuff -->
         </div>
@@ -251,10 +253,10 @@
         </div>
 
         <form action="">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" rows="6" placeholder="Message"></textarea>
-            <button type="submit" class="btn">Send<i class="uil uil-arrow-right"></i></button>
+            <input type="text" name="name" id="cname" placeholder="Your Name">
+            <input type="email" name="email" id="cemail" placeholder="Your Email">
+            <textarea name="message" rows="6" id="cmessage" placeholder="Message"></textarea>
+            <button type="submit" class="btn" id="csend">Send<i class="uil uil-arrow-right"></i></button>
         </form>
     </div>
 </section>
@@ -274,6 +276,7 @@
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "prasannaj-15", { responsive: true });
-
-   
 </script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="./assets/js/email.js"></script>
