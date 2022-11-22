@@ -202,13 +202,17 @@ header {
 }
 
 .header__right-bg {
-    width: 70rem;
-    height: 70rem;
+    /* width: 70rem; */
+    /* height: 70rem; */
+    width: 40rem;
+    height: 35rem;
     border-radius: 50%;
     background: var(--color-primary);
     position: absolute;
-    right: -30rem;
-    bottom: -30rem;
+    /* right: -30rem; */
+    /* bottom: -30rem; */
+    bottom: -3rem;
+    left: 9rem;
 }
 
 .header__image{
@@ -216,10 +220,12 @@ header {
     position: absolute;
     bottom: -1rem;
     z-index: 1;
+    text-align: end;
 }
 
 .header__image img{
-    width: 80%;
+    /* width: 80%; */
+    width: 55%;
 }
 /* =================== End Header ===============*/
 
@@ -278,6 +284,17 @@ header {
 .gitcalender__container{
     text-align: center;
 }
+
+.stats {
+    margin: 2rem 0;
+}
+.stats p {
+    margin: 2rem 0;
+}
+.stats__img {
+    width: 50%;
+}
+
 /* =================== End git calender section ============== */
 
 
@@ -300,7 +317,17 @@ header {
 }
 
 .contact__container p {
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 1rem;
+}
+
+.footer__socials {
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+}
+
+.footer__socials i{
+    color: #f5f5f5;
 }
 
 form {
@@ -541,10 +568,14 @@ textarea {
     .header__image{
         position: relative;
         top: 1rem;
+        text-align: center;
     }
 
     .header__right-bg {
-        bottom: 36%;
+        /* bottom: 36%; */
+        width: 18rem;
+        height: 18rem;
+        left: -8rem;
     }
     .header__socials {
         position: absolute;
