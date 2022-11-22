@@ -482,11 +482,13 @@ textarea {
         right: 50%;
         bottom: 50%;
         transform: translate(50%, 50%);
+        left: auto;
     }
 
     .header__image {
         bottom: 10rem;
         width: 100%;
+        text-align: center;
     }
 
     .header__socials {
