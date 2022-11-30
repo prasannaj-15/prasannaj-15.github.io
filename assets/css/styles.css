@@ -229,6 +229,25 @@ header {
 }
 /* =================== End Header ===============*/
 
+/* =================== Start skills ===============*/
+
+#skills{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.all__skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    justify-items: center;
+}
+
+.all__skills > img {
+    width: 50%;
+}
+/* =================== End skills ===============*/
+
 
 /* =================== start project section=========== */
 
