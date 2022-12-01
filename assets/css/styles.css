@@ -231,20 +231,33 @@ header {
 
 /* =================== Start skills ===============*/
 
+.skills__container{
+    text-align: center;
+}
+
+.skills__header{
+    color: var(--color-primary);
+    margin: 2rem 2rem;
+}
 #skills{
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
 .all__skills{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    row-gap: 1rem;
+    row-gap: 2rem;
     justify-items: center;
+    align-items: center;
 }
 
 .all__skills > img {
-    width: 50%;
+    width: 60%;
+}
+
+#html-logo{
+    width: 35%;
 }
 /* =================== End skills ===============*/
 
@@ -273,6 +286,13 @@ header {
 
     display: inline-flex;
     /* justify-content: space-between; */
+    font-weight: bold;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    padding: 1rem;
+    gap: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
 }
 .project__tech i{
     font-size: 30px;
@@ -300,6 +320,10 @@ header {
 .project__block {
     margin-top: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#cms__logo{
+    width: 70%;
 }
 
 /* ===================End project section============== */
@@ -617,11 +641,20 @@ textarea {
         color: var(--color-white);
     } 
 
+/* ====================== Skills ================ */
+    .all__skills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        row-gap: 2rem;
+        justify-items: center;
+        align-items: center;
+    }
 /* ====================== project================ */
-#projects {
+/* #projects {
     padding-top: 4rem;
     margin-top: 4rem;
-}
+} */
 
 .project__block{
     grid-template-columns: 1fr;
