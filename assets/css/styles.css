@@ -148,6 +148,9 @@ nav button{
 }
 
 /* ====================== Header ==================== */
+#about{
+    padding-top: 6rem;
+}
 header {
     height: calc(100% - 5rem);
     position: relative;
@@ -394,7 +397,10 @@ textarea {
     padding: 1rem;
 }
 
-
+#phone__li{
+    font-size: 20px;
+    padding-top: 8px;
+}
 
 /* ===================End contact section============== */
 
@@ -508,7 +514,10 @@ textarea {
 
 
 /* ==================== Header (tablet) ====================== */
-    header {
+#about{
+    padding-top: 3rem;
+} 
+header {
         height: 100%;
         padding: 11rem 0 0;
         top: 0;
@@ -598,6 +607,9 @@ textarea {
 
     /* ============== Header ================== */
 
+    #about{
+        padding-top: 0;
+    }
     header {
         height: 100%;
         padding: 0;
