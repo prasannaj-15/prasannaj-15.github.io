@@ -22,3 +22,26 @@ const closeNav = () => {
 }
 
 closeBtn.addEventListener('click', closeNav);
+
+//scrolling effect
+
+var nodeArray = [
+
+    document.querySelector('#skills'),
+    document.querySelector('#projects'),
+    document.querySelector('#git_calender'),
+    document.querySelector('#contact'),
+    document.querySelector('.header__image'),
+    
+
+];
+
+ScrollReveal().reveal(nodeArray,{ delay: 500, reset: true });
+
+var projects =  document.querySelectorAll('.project__block')
+ScrollReveal().reveal(projects,{ delay: 500, reset: true });
+
+var myname = document.querySelector('.myname');
+ScrollReveal().reveal(myname,{ delay: 700, reset: true });
+
+
