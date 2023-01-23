@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<title>Portfolio</title>
+<title>Prasanna Jadhav-Portfolio</title>
 </head>
 <body>
     <nav>
@@ -31,7 +31,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <li>
-                <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn btn-primary" download><i class="uil uil-download-alt"></i>Resume</a>    
+                <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn btn-primary downloadresume" download="Prasanna-Jadhav-Resume"><i class="uil uil-download-alt"></i>Resume</a>    
             </li>
         </ul>
         
@@ -87,12 +87,16 @@
     <div class="all__skills">
         <img src="./assets/img/Java_logo_PNG2.png" alt="java">
         <img src="./assets/img/Spring_Framework-Logo.wine.png" alt="spring">
+        <img src="./assets/img/spring-boot.png" alt="springboot">
         <img src="./assets/img/hibernate-ar21.png" alt="hibernet">
         <img id="html-logo" src="./assets/img/html-logo.png" alt="html">
         <img src="./assets/img/CSS_logo_PNG1.png" alt="css">
         <img id ="js-logo" src="./assets/img/png-javascript-logo-removebg.png" alt="js">
         <img src="./assets/img/MySQL-Logo.wine.png" alt="mysql">
-        <img src="./assets/img/spring-boot.png" alt="springboot">
+        <img src="./assets/img/IntelliJ_IDEA_logo.png" alt="intellij">
+        <img src="./assets/img/vscode.png" alt="vscode">
+        <img src="./assets/img/eclipse_ide_logo.png" alt="eclipse">
+        <img src="./assets/img/GitHub-logo.png" alt="git">
     </div>
 
 </div>
@@ -108,6 +112,77 @@
     <h2 class="project__header"> Projects</h2>
     
     <!-- project 1 -->
+    <div class="project__block">
+        <div class="project__left">
+            <div class="project__img">
+                <img id="cms__logo" src="./assets/img/easytrip-logo.png" alt="easytrip-logo">
+            </div>
+            <div class="project__tech">                
+                <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+                
+            </div>
+        </div>
+        <div class="project__right">
+            <div class="project__title">
+                <h3>EasyTrip - Trip Management System</h3>
+                <p>Build Restful api for online Trip management system.</p>
+                <p>This was a group project.We had built an Application for Online Trip booking 
+                    where Customer should be able to view the list of available trip packages, hotels and bus. 
+                    Customer should be able to book trip package for according to locations and date.
+                </p>
+                <ul>
+                    <li><span style="font-weight: bold;"> Features</span></li>
+                    <li>Login and Logout </li>
+                    <li>Admin module</li>
+                    <li>Customer module</li>
+                    <li>Customer book trip package</li>
+                    <li>Customer can book bus</li>
+                    <li>Total booking cost</li>
+                </ul>
+            </div>
+            <div class="project__buttons">
+                <a href="https://drive.google.com/drive/folders/1tQi0w4DcjE7KvkIO7QQcCUEY-zz1cfDA?usp=share_link" target="_blank"><button class="btn-live btn-md btn-primary">Demo Video</button></a>
+                <a href="https://github.com/prasannaj-15/silky-crayon-1290" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- project 2 -->
+    <div class="project__block">
+        <div class="project__left">
+            <div class="project__img">
+                <img id="cms__logo" src="./assets/img/Online-Cab-Booking-App-logo.png" alt="cabmate">
+            </div>
+            <div class="project__tech">                
+                <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+                
+            </div>
+        </div>
+        <div class="project__right">
+            <div class="project__title">
+                <h3>Cabmate- Online Cab Booking System</h3>
+                <p>Build Restful api for online cab booking system.</p>
+                <p>This was a group project.We had built an Application for Online Cab Booking 
+                    where Customer should be able to view the list of available cabs. 
+                    Customer should be able to book cab for desired location from a certain location.
+                </p>
+                <ul>
+                    <li><span style="font-weight: bold;"> Features</span></li>
+                    <li>Login and Logout </li>
+                    <li>Admin module</li>
+                    <li>Customer module</li>
+                    <li>Customer book cab</li>
+                    <li>View available cabs</li>
+                    <li>Customer cancle booked cab</li>
+                    <li>Total booking fare</li>
+                </ul>
+            </div>
+            <div class="project__buttons">
+                <a href="https://drive.google.com/file/d/1Rh2zopjXIXMGn2xrUsyCk5noJraqgKI5/view" target="_blank"><button class="btn-live btn-md btn-primary">Demo Video</button></a>
+                <a href="https://github.com/alka1520/Cabmate" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+            </div>
+        </div>
+    </div>
+     <!-- project 3 -->
     <div class="project__block">
         <div class="project__left">
             <div class="project__img">
@@ -140,38 +215,7 @@
         </div>
     </div>
     
-     <!-- project 2 -->
-     <div class="project__block">
-        <div class="project__left">
-            <div class="project__img">
-                <img src="./assets/img/cronometer.png" alt="fathom">
-            </div>
-            <div class="project__tech">
-                <p>Tech-stacks : HTML5, CSS3, JavaScript</p>
-            </div>
-        </div>
-        <div class="project__right">
-            <div class="project__title">
-                <h3>Cronometer</h3>
-                <p>Cloned cronometer website which is an online Nutrition and Fitness tracking website.</p>
-                <p>Designed and developed a replica of calories, exercise, biometrics and
-                    health data tracking chronometers website. Responsible for high-quality
-                    front-end code with a focus on web standards.
-                </p>
-                <ul>
-                    <li><span style="font-weight: bold;"> Features</span></li>
-                    <li>Selecting plan</li>
-                    <li>Responsive web design</li>
-                </ul>
-            </div>
-            <div class="project__buttons">
-                <a href="https://darling-daffodil-f27da3.netlify.app/" target="_blank"><button class="btn-live btn-md btn-primary">Live</button></a>
-                <a href="https://github.com/prasannaj-15/damaged-muscle-4612" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
-            </div>
-        </div>
-    </div>
-
-    <!-- project 3 -->
+    <!-- project 4 -->
     <div class="project__block">
         <div class="project__left">
             <div class="project__img">
@@ -209,8 +253,38 @@
         </div>
     </div>
 
- <!-- project 4 -->
- 
+ <!-- project 5 -->
+  <!-- cronometer -->
+     <div class="project__block">
+        <div class="project__left">
+            <div class="project__img">
+                <img src="./assets/img/cronometer.png" alt="fathom">
+            </div>
+            <div class="project__tech">
+                <p>Tech-stacks : HTML5, CSS3, JavaScript</p>
+            </div>
+        </div>
+        <div class="project__right">
+            <div class="project__title">
+                <h3>Cronometer</h3>
+                <p>Cloned cronometer website which is an online Nutrition and Fitness tracking website.</p>
+                <p>Designed and developed a replica of calories, exercise, biometrics and
+                    health data tracking chronometers website. Responsible for high-quality
+                    front-end code with a focus on web standards.
+                </p>
+                <ul>
+                    <li><span style="font-weight: bold;"> Features</span></li>
+                    <li>Selecting plan</li>
+                    <li>Responsive web design</li>
+                </ul>
+            </div>
+            <div class="project__buttons">
+                <a href="https://darling-daffodil-f27da3.netlify.app/" target="_blank"><button class="btn-live btn-md btn-primary">Live</button></a>
+                <a href="https://github.com/prasannaj-15/damaged-muscle-4612" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 </div>
@@ -246,13 +320,16 @@
                 <ul class="footer__socials">
                     <li><a href="https://www.linkedin.com/in/prasanna-jadhav/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
                     <li><a href="https://github.com/prasannaj-15" target="_blank"><i class="uil uil-github"></i></a></li>
-                    <li><i class="uil uil-phone-alt"></i></li>
-                    <li id="phone__li">+91 9325210212</li>
+                    
                 </ul>
-
+                <ul>
+                    
+                    <li class="phone__li"><i class="uil uil-phone-alt"></i> +91 9325210212</li>
+                    <li class="phone__li"><i class="uil uil-envelope"></i> prasanna15j@gmail.com</li>
+                </ul>
             <!-- </div> -->
             <p>You can also download my resume using below button</p>
-            <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn" download><i class="uil uil-download-alt"></i>Download Resume</a>
+            <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn downloadresume" download="Prasanna-Jadhav-Resume"><i class="uil uil-download-alt"></i>Download Resume</a>
         </div>
 
         <form action="">
@@ -275,6 +352,12 @@
 </script>
 <script>    
     GitHubCalendar(".calendar", "prasannaj-15", { responsive: true });
+    
+    let resume2 = document.querySelector(".downloadresume");
+    resume2.addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/13lNRyIF7m6757rIyio5MpzTg1se77i0w/view?usp=share_link")
+    })
+
 </script>
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>

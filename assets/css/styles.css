@@ -401,7 +401,7 @@ textarea {
     padding: 1rem;
 }
 
-#phone__li{
+.phone__li{
     font-size: 20px;
     padding-top: 8px;
 }
