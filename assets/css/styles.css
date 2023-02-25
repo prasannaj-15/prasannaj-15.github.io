@@ -205,17 +205,17 @@ header {
 }
 
 .header__right-bg {
-    /* width: 70rem; */
-    /* height: 70rem; */
-    width: 40rem;
-    height: 35rem;
+    /* width: 40rem;
+    height: 35rem; */
+    width: 35rem;
+    height: 30rem;
     border-radius: 50%;
     background: var(--color-primary);
     position: absolute;
     /* right: -30rem; */
     /* bottom: -30rem; */
     bottom: -3rem;
-    left: 9rem;
+    left: 12rem;
 }
 
 .header__image{
@@ -267,6 +267,11 @@ header {
     width: 43%;
 }
 /* =================== End skills ===============*/
+
+#tools {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
 
 
 /* =================== start project section=========== */
@@ -542,8 +547,8 @@ header {
     }
 
     .header__right-bg {
-        width: 28rem;
-        height: 28rem;
+        width: 19rem;
+        height: 20rem;
         right: 50%;
         bottom: 50%;
         transform: translate(50%, 50%);
@@ -644,8 +649,8 @@ header {
     .header__right-bg {
         /* bottom: 36%; */
         width: 18rem;
-        height: 18rem;
-        left: -8rem;
+        height: 17rem;
+        left: -7rem;
     }
     .header__socials {
         position: absolute;
